@@ -1,16 +1,13 @@
 {
-  "name": "vanilla",
+  "name": "mpromise-test-task",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "description": "Write your own Promise realisation.",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "test": "jest",
+    "test:watch": "jest --wtach"
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
-  },
-  "keywords": []
+    "jest": "^24.9.0"
+  }
 }
