@@ -4,8 +4,6 @@ class MPromise {
 
   then(onResolve) {
   }
-
-  catch(onReject) {}
 }
 
 module.exports = MPromise;
